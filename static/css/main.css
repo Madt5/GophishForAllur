@@ -10,10 +10,40 @@
     display: none;
 }
 
+.navbar {
+    min-height: 50px;
+}
+
+.navbar-brand {
+    padding: 0 15px;       
+    height: 50px;        
+    display: flex;
+    align-items: center;   
+}
+
+.navbar-brand img {
+    height: 32px;   
+    width: auto;
+    display: block;
+}
+
 .navbar-logo {
     margin: 4px 0px;
     float: left;
 }
+
+.navbar-nav > li > a {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav > li > a {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
 
 #navbar-login {
     padding-top: 8px;
@@ -281,7 +311,7 @@ p {
     display: inline-block;
     min-width: 5em;
     padding: .5em;
-    background: #283F50;
+    background: #282929;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
@@ -297,7 +327,7 @@ p {
     display: inline-block;
     min-width: 5em;
     padding: .5em;
-    background: #283F50;
+    background: #282929;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
@@ -317,7 +347,7 @@ p {
     height: 0;
     margin-left: -15px;
     border: 15px solid transparent;
-    border-top-color: #283F50
+    border-top-color: #282929
 }
 
 .chartist-chart {
